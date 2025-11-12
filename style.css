@@ -1,9 +1,5 @@
 
-div{
-  height: 300px;
-
-  background-image: radial-gradient(  circle 100px at left,red  , yellow);
-}
+/* table style */
 
 table{
   width: 50%;
@@ -13,13 +9,11 @@ table{
 
 th{
     background: #0f94d7;
-border: 2px;
+    border: 2px;
 
 }
 
 td{
   background: #108ab656;
   text-align: left;
-  border: 4px #0bb1c45f solid;
-
-}
+  border: 4px #0bb1c45f solid}
