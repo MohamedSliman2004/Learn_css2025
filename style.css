@@ -4,22 +4,3 @@ div{
 
   background-image: radial-gradient(  circle 100px at left,red  , yellow);
 }
-
-table{
-  width: 50%;
-  border-spacing: 0px;
-  
-}
-
-th{
-    background: #0f94d7;
-border: 2px;
-
-}
-
-td{
-  background: #108ab656;
-  text-align: left;
-  border: 4px #0bb1c45f solid;
-
-}
