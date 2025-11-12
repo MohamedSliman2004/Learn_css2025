@@ -1,19 +1,10 @@
 
-/* table style */
-
-table{
-  width: 50%;
-  border-spacing: 0px;
-  
-}
-
-th{
-    background: #0f94d7;
-    border: 2px;
+#b1{
+  height: 50px;
+  background-image: linear-gradient( to 90deg , red , blue );
 
 }
 
-td{
-  background: #108ab656;
-  text-align: left;
-  border: 4px #0bb1c45f solid}
+/* في خطء في ستخدام bottom & top  دور علي الحل */
+
+
