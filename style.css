@@ -1,10 +1,115 @@
 
-#b1{
-  height: 50px;
-  background-image: linear-gradient( to 90deg , red , blue );
+#linear{
+  height: 80px;
+  background-image: linear-gradient(  to left , red , blue );
+  /* (90deg درجه / to right - left - top - bottom , color ) */
 
 }
 
 /* في خطء في ستخدام bottom & top  دور علي الحل */
+
+
+
+#radial{
+  height: 80px;
+  background-image: radial-gradient(  circle at left , red , Yellow );
+
+}
+
+/* 
+
+1- circle : ...px , at top - bottom - left - right - center , colors
+
+
+2- ellipse : width - hight , colors
+
+
+*/
+
+/* using float  */
+/* float hight - left */
+
+.parent  {
+  background-color: yellow;
+  
+
+}
+
+.red{
+  background-color: red;
+  width: 50px;
+  height: 50px;
+}
+.grren{
+  background-color: green;
+  width: 50px;
+  height: 50px;
+}
+
+.blue{
+  background-color: blue;
+  width: 50px;
+  height: 50px;
+}
+
+.float{
+  float: left;
+}
+/* clear : both - left - right */
+#clear{
+  clear: both;
+}
+
+/* overflow auto - hidding - scroll - of-x  -  of-y */
+
+#overflow{
+  background: red;
+  width: 200px;
+  height: 200px;
+  border: 5px rgb(74, 31, 190) dotted;
+  overflow: auto;
+}
+
+
+/* position */
+
+.parint{
+  background: blue;
+  height: 150px;
+  width: 200px;
+  padding: 20px;
+  /* position: absolute; */
+}
+
+.parent ,div{
+  height: 30px;
+}
+
+.one{
+  background: tomato;
+    /* position: absolute;
+  bottom: 10px;
+  left: 0px; */
+
+
+
+}
+
+.tow{
+  background: gold;
+    /* position: relative;
+  top:  100px; */
+    position: sticky;
+  top: 0px;
+
+}
+
+.thre{
+  background: darkviolet;
+
+
+}
+
+
 
 
