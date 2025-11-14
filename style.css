@@ -1,34 +1,39 @@
 /* 
-List style - position : inside / outside
+2rem = 2*16px = 32px
+1rem = 1*16px = 16px
+
 */
 
-li{
-  background: yellow;
+/* 
+div = 10px
+
+1em = 10px
+2em = 20px
+
+ياخد حجم الاب إللي جواه ولو مفيش ياخد html
+
+
+*/
+
+/* 
+
+width : 50%vw
+ من حجم الاب عرض
+
+ height : 50%vh
+ من حجم الشاشه
+
+   width: calc(100% - 50px);
+
+*/
+
+div{
+  background:red;
+  
 }
+p{
+  width: calc(100% - 50px);
+  background: blue;
 
-ul , ol{
-  list-style-position: outside;
-  list-style-type:square;
-  /* list-style-image: url(); */
-}
-
-
-table{
-  width: 100%;
-  border-spacing: 0px;
-  /* padding: 10px; */
-}
-
-th{
-  background: rgb(9, 117, 218);
-  padding: 5px;
-  /* border: 10px black ; */
-}
-
-td{
-  background: rgba(24, 80, 199, 0.473);
-  text-align: center;
-  height: 20px;
-  border: rgba(73, 98, 114, 0.349) ,solid , 5px;
-
+  
 }
