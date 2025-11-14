@@ -1,0 +1,107 @@
+
+
+
+
+/* 
+static:
+قيمه افتراضيه
+
+relative:
+
+ تحافظ علي المكان الاصلي لها  يتحرك نسبه لمكانه الاصلي 
+
+absolute :
+
+1- مختلف عن ىالبقيه ياخذ عرض المحتوي الكونتن الموجود فيه وليس الاب مثل البقيه
+2-الايحافظ علي مكانه
+3- الحركه نسبتنا لشاشه بتعته إذكان الاب مش واخد position اي خصيه سيخدها الاب الكبير وهو body هذا إذكان الاب مش واخد position
+
+3- يفضل استخدامه في تحريك العنصر في شاشه بدقه
+
+
+fixed:
+1- عنصر ثابت الايتحرق 
+
+sticky:
+
+جرب ونتا تعرف 
+  position:sticky;
+    top: 0px; 
+
+
+z-index: 1;
+
+تحريك العنصر علي حسب الرقم  امام او خاف
+
+*/
+
+
+
+
+
+
+
+.perint{
+  background: #87ceeb;
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+
+
+
+}
+
+ div{
+  height: 30px;
+    position: absolute;
+}
+
+.one{
+  width: 100px;
+  height: 50px;
+  background: red;
+  top: 20px;
+  left: 20px;
+  z-index: 1;
+
+  
+
+
+
+
+
+  
+  
+}
+.tow{
+    width: 100px;
+  height: 50px;
+
+  background: gold;
+  z-index: 2;
+
+  top: 30px;
+  left: 30px;
+
+
+    
+
+}
+
+
+.ther{
+    width: 100px;
+  height: 50px;
+  background: green;
+  top: 50px;
+  left: 40px;
+  z-index: 3;
+
+
+
+
+
+
+
+
+}
